@@ -56,5 +56,13 @@ This frontend application is built using **React** and provides a user-friendly 
 4. Use the prediction feature to get estimates of future sleep quality.
 5. Check the diagnosis section for insights into potential sleep issues.
 
+## Images   
+![first](https://github.com/user-attachments/assets/e97d5bfe-b1ba-44cd-95b0-f009a25cc899)
+![second](https://github.com/user-attachments/assets/0f57ffff-0716-4068-9d72-3c6cbba09891)
+![third](https://github.com/user-attachments/assets/4fe2aada-9d4e-4d18-8d5c-9ca9567081ac)
+![alertmessage](https://github.com/user-attachments/assets/78647dcc-a0ec-4ed2-9204-0839a4d84658)
+![fourth](https://github.com/user-attachments/assets/c910f3b6-c762-4e11-9f65-5987401c55ea)
+
+
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or features, please open an issue or submit a pull request.
