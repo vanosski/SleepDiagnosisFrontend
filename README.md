@@ -1,9 +1,27 @@
 # Sleep Quality Analyzer - Frontend
 
 ## Description
-The **Sleep Quality Analyzer** is a web application designed to help users track their sleep patterns and receive personalized recommendations based on their input data. By analyzing daily sleep metrics, the application predicts sleep quality and identifies potential sleep disorders, providing valuable insights to improve overall well-being.
+The **Sleep Quality Analyzer** is a full-stack web application designed to help users track their sleep patterns and receive personalized recommendations based on their input data. Built with **React** for the frontend and **Node.js** with **Express** for the backend, this application leverages a machine learning model to analyze daily sleep metrics.
 
-### Project Overview
+Users can log essential sleep-related data, including sleep duration, activity levels, stress levels, and perceived sleep quality. The application integrates a predictive machine learning model hosted on the backend, which processes the data to provide insights into sleep quality and potential sleep disorders. 
+
+### Technologies Used
+- **Frontend**: 
+  - **React**: For building dynamic user interfaces.
+  - **JavaScript**: For application logic.
+  - **HTML5 & CSS3**: For structuring and styling the application.
+  - **Chart.js**: For visualizing sleep quality trends.
+
+- **Backend**:
+  - **Node.js**: For server-side logic.
+  - **Express**: For building RESTful APIs.
+  - **MongoDB**: For data storage and management.
+  - **Machine Learning**: Custom algorithms for analyzing sleep data and predicting quality.
+
+### Backend Repository
+The backend for this project is available at: [Sleep Diagnosis Recommender - Backend](https://github.com/vanosski/SleepDiagnosisBackend)
+
+### Overview
 This frontend application is built using **React** and provides a user-friendly interface for entering sleep data and viewing predictions. Users can log their sleep duration, activity levels, stress levels, and perceived sleep quality. The application utilizes a machine learning model hosted on the backend to analyze this data and generate predictions and recommendations.
 
 ### Key Features
@@ -13,12 +31,6 @@ This frontend application is built using **React** and provides a user-friendly 
 - **Predictions**: Get predictions for future sleep quality based on entered metrics.
 - **Diagnosis**: Receive recommendations based on user responses regarding sleep-related issues like snoring and awakenings.
 - **Data Visualization**: Visualize sleep quality trends over time using charts.
-
-## Technologies Used
-- **React**: For building user interfaces.
-- **JavaScript**: For application logic.
-- **HTML5 & CSS3**: For structuring and styling the application.
-- **Chart.js**: For creating interactive charts and graphs.
 
 ## Installation
 1. Clone the repository:
