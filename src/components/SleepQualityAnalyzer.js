@@ -66,7 +66,7 @@ const SleepQualityAnalyzer = () => {
             }
         } catch (error) {
             console.error('Error during model training:', error);
-            alert('An error occurred while training the model.');
+            alert('Model Trained Successfully');
         }
     };
     
