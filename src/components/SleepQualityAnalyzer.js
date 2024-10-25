@@ -122,7 +122,7 @@ const SleepQualityAnalyzer = () => {
 
     return (
         <div>
-            <h1 align="center">SLEEP ANALYZER</h1>
+            <h1 align="center">SLEEP DIAGNOSIS RECCOMENDERr</h1>
 
             <div id="data-entry">
                 <h3 align="center">User Information</h3>
