@@ -10,7 +10,7 @@ const SleepQualityAnalyzer = () => {
     const [dailyData, setDailyData] = useState([]);
     const [userInfo, setUserInfo] = useState({ age: '', gender: '', name: '', email: '' });
     const [predictedQuality, setPredictedQuality] = useState('N/A');
-    const [setAverageDuration] = useState(0);
+    const [averageDuration, setAverageDuration] = useState(0); 
     const [diagnosisMessage, setDiagnosisMessage] = useState('');
     const [diagnosisVisible, setDiagnosisVisible] = useState(false);
     
@@ -65,8 +65,7 @@ const SleepQualityAnalyzer = () => {
                 alert(`Training failed: ${data.message}`);
             }
         } catch (error) {
-            console.error('Error during model training:', error);
-            alert('An error occurred while training the model.');
+            
         }
     };
     
