@@ -1,38 +1,112 @@
-.App {
+body {
+  background-image: url('images/back2.jpg');
+  font-family: 'Open Sans', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  background-color: black;
+  height: 100%;
+  color: #f2ede4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #f2ede4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#data-entry,
+#prediction,
+#diagnosis-form {
+  margin: 2% auto;
+  width: 40%;
+  max-width: 70%;
+  padding: 3%;
+  background-color: rgba(153, 102, 204, 0.3);
+  border: 1px solid #512f89;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 128, 0.5);
+  align-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#gender {
+  width: 99%;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+  margin: 2% auto;
+  width: 85%;
+  max-width: 100%;
+  padding: 3%;
+  font-size: 1vw;
+  background-color: rgba(153, 102, 204, 0.3);
+  border: 1px solid #512f89;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 128, 0.5);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#button2 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select,
+#predict-duration,
+#predict-activity,
+#predict-stress {
+  margin: 2% 0;
+  padding: 2%;
+  width: 95%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#submit-button,
+#train-button,
+#predict-button,
+#diagnosis-submit,
+#diagnosis-button {
+  text-align: center;
+  background-color: #fbf7f0;
+  color: #512f89;
+  border: none;
+  padding: 2% 3%;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1vw;
+}
+
+#submit-button:hover,
+#train-button:hover,
+#predict-button:hover,
+#diagnosis-submit:hover,
+#diagnosis-button:hover {
+  background-color: #ae99e8;
+}
+
+th, td {
+  padding: 1%;
+  text-align: center;
+  border: 1px solid #ccc;
+  font-size: 1vw;
+  width: auto;
+}
+
+#predicted-quality {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1vw;
+  margin-top: 2%;
 }
