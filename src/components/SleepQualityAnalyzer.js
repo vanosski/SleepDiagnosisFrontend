@@ -42,7 +42,7 @@ const SleepQualityAnalyzer = () => {
             console.log('User Info:', userInfo);
             console.log('Daily Data:', dailyData);
             
-            const response = await fetch(`${process.env.REACT_APP_API_URL}/api/train`, {
+            const response = await fetch(`https://sleepdiagnosisbackend.onrender.com/api/train`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ userInfo, dailyData }),
@@ -76,7 +76,7 @@ const SleepQualityAnalyzer = () => {
         const stress = parseFloat(document.getElementById('predict-stress').value);
 
         try {
-            const response = await fetch(`${process.env.REACT_APP_API_URL}/api/predict`, {
+            const response = await fetch(`https://sleepdiagnosisbackend.onrender.com/api/predict`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ duration, activity, stress }),
