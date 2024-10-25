@@ -57,8 +57,5 @@ This frontend application is built using **React** and provides a user-friendly 
 4. Use the prediction feature to get estimates of future sleep quality.
 5. Check the diagnosis section for insights into potential sleep issues.
 
-## Backend Repository
-The backend for this project is available at: [Sleep Diagnosis Recommender - Backend](https://github.com/vanosski/SleepDiagnosisBackend)
-
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or features, please open an issue or submit a pull request.
