@@ -10,7 +10,7 @@ const SleepQualityAnalyzer = () => {
     const [dailyData, setDailyData] = useState([]);
     const [userInfo, setUserInfo] = useState({ age: '', gender: '', name: '', email: '' });
     const [predictedQuality, setPredictedQuality] = useState('N/A');
-    const [averageDuration, setAverageDuration] = useState(0); 
+    const [setAverageDuration] = useState(0); 
     const [diagnosisMessage, setDiagnosisMessage] = useState('');
     const [diagnosisVisible, setDiagnosisVisible] = useState(false);
     
