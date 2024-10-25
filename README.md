@@ -1,7 +1,7 @@
 # Sleep Diagnosis Reccomender - Frontend
 
 ## Description
-The **Sleep Quality Diagnosis** is a full-stack web application designed to help users track their sleep patterns and receive personalized recommendations based on their input data. Built with **React** for the frontend and **Node.js** with **Express** for the backend, this application leverages a machine learning model to analyze daily sleep metrics.
+The **Sleep Diagnosis Recommender** is a full-stack web application designed to help users track their sleep patterns and receive personalized recommendations based on their input data. Built with **React** for the frontend and **Node.js** with **Express** for the backend, this application leverages a machine learning model to analyze daily sleep metrics.
 
 Users can log essential sleep-related data, including sleep duration, activity levels, stress levels, and perceived sleep quality. The application integrates a predictive machine learning model hosted on the backend, which processes the data to provide insights into sleep quality and potential sleep disorders. 
 
@@ -15,7 +15,6 @@ Users can log essential sleep-related data, including sleep duration, activity l
 - **Backend**:
   - **Node.js**: For server-side logic.
   - **Express**: For building RESTful APIs.
-  - **MongoDB**: For data storage and management.
   - **Machine Learning**: Custom algorithms for analyzing sleep data and predicting quality.
 
 ### Backend Repository
